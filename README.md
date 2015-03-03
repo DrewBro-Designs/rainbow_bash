@@ -6,3 +6,5 @@ Copy the script to your home directory, and add an entry in your `~/.bashrc`.
 ```shell
 curl https://raw.githubusercontent.com/DrewBro-Designs/bash_fun/master/rainbow_bash.sh > ~/.rainbow_bash.sh && echo ". ~/.rainbow_bash.sh" >> ~/.bashrc
 ```
+## Usage
+Make sure to source your bash bashrc `source ~/.bashrc`, and checkout the rainbow magic when you run `clear`.
