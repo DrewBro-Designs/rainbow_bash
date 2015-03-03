@@ -7,7 +7,7 @@ purple='\e[0;35m'
 light_blue='\e[0;36m'
 gray='\e[0;37m'
 end_color='\e[0m'
-colors=($red $yellow $green $purple $light_blue $gray)
+colors=($red $green $yellow $blue $purple $light_blue $gray)
 
 # Set some variables
 the_date=`date`
