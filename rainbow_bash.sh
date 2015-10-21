@@ -34,7 +34,7 @@ clear () {
       count=$((count + 1))
       go_up $left_side $right_side
       for color in ${colors[@]}; do
-        echo -e "${color}${left_side}`date`${right_side}${end_color}"
+        printf "${color}${left_side}`date`${right_side}${end_color}\n"
       done
     done
   }
@@ -45,7 +45,7 @@ clear () {
       count=$((count + 1))
       go_down $left_side $right_side
       for color in ${colors[@]}; do
-        echo -e "${color}${left_side}`date`${right_side}${end_color}"
+        printf "${color}${left_side}`date`${right_side}${end_color}\n"
       done
     done
     right_count=`expr "$COLUMNS" - "$date_length" - "$left_count" - 2`
